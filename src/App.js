@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import logo from "./logo.svg"
 import "./App.css"
 import { Row, Col, Container, Image} from 'react-bootstrap';
 import logo from '../src/assets/img/logo.png'
