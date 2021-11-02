@@ -1,32 +1,226 @@
-.App {
+.bg_nav{
+  background-color: #222;
+  padding: 1rem;
+}
+col{
+  color: aliceblue;
+}
+h1{
+  color: #fff;
+}
+
+ .logo{
+  width: 100%;
+  padding: 10px 0;
+}
+.text-white{
+  color: white !important;
+}
+.player-wrapper {
+  position: relative;
+  padding-top: 47.25% /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  height: 500px !important;
+  left: 0;
+}
+.list-inline li img{
+  width: 24px;
+  height: 24px;
+  
+}
+.list-inline{
+  position: relative;
+  top: 40%;
+}
+
+.list ul{
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.join-btn{
+  background-color: #26f7fd !important;
+  border-color: #26f7fd !important;
+  color: black !important;
+  padding: 10px 62px !important;
+    font-size: 20px !important;
+    font-style: italic !important;
+    font-weight: bold !important;
+    letter-spacing: 0.1px !important;
+  font-family: 'Poppins', sans-serif !important;
 }
+.content_section p{
+  color: rgb(255 255 255 / 66%);
+  margin-bottom: 0 !important;
+  font-size: 17.5px !important;
+  font-weight: 100 !important;
+}
+.padding-top{
+  padding-top: 1.5rem;
+}
+.padding-bottom{
+  padding-bottom: 1.5rem;
+}
+.story{
+  font-weight: 600 !important;
+  color: white !important;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.story span{
+  color: #26F7FD !important;
+  font-style: italic !important;
+}
+.inner_padding{
+  padding: 0.5rem;
+}
+.toys img{
+  width: 100%;
+}
+.form{
+  border: 5px solid #fff;
+  border-radius: 6px;
+  padding: 2.5rem;
+}
+.form_text{
+  font-size: 3rem;
+  color: #26F7FD;
+  padding: 0 1rem;
+  font-weight: bold;
+  font-style: italic;
+}
+.form_content{
+  color: rgb(255 255 255 / 66%);
+  padding:  1rem;
+  font-size: 15px;
+}
+.form_content_right{
+  text-align: right;
+  color: #26F7FD;
+  font-weight: 600;
+  font-size: 17px;
+  font-style: italic;
+}
+.form_content_right2{
+  text-align: right;
+  color: #fff;
+  font-weight: 600;
+  font-size: 3rem;
+}
+hr{
+  background-color: #fff !important;
+  margin-bottom: 22px !important;
+}
+.minus{
+  letter-spacing: 0.1em;
+  color: #FFFFFF !important;
+  font-family: poppins-semibold,poppins,sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px !important;
+  background-color: #26f7fd !important;
+  cursor: pointer;
+}
+.minus:hover{
+  color: #000 !important;
+  background-color: #fff !important;
+}
+.connect{
+  background-color: #26f7fd !important;
+  border-color: #26f7fd !important;
+  color: black !important;
+  padding: 12px 12px !important;
+  width: 100%;
+    font-size: 20px !important;
+    font-style: italic !important;
+    text-transform: uppercase !important;
+    font-weight: bold !important;
+    letter-spacing: 0.1px !important;
+  font-family: 'Poppins', sans-serif !important;
+}
+small{
+  padding: 1rem 0 !important;
+  color: #fff;
+}
+.form-control{
+  height: 50px !important;
+}
+.input-group-text{
+  height: 50px !important;
+}
+h2{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.road_map{
+  padding: 2rem 0;
+}
+.road_map p{
+  color: white;
+}
+.road_map h5{
+  font-style: italic;
+  color: #26F7FD !important;
+}
+.road_map p{
+  margin-bottom: 1rem !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.road{
+  font-weight: 600 !important;
+  color: white !important;
+  
+}
+.road span{
+  color: #26F7FD !important;
+  font-style: italic !important;
+}
+.road_list li{
+  color: #fff;
+}
+table tbody tr td {
+  border: none !important;
+}
+table tbody tr td:nth-child(1){
+  vertical-align: middle;
+}
+.launching_content{
+  padding: 8rem 5rem 0 5rem;
+  color: #fff;
+  font-weight: bold;
+  font-size: 28px;
+  letter-spacing: 3px;
+  font-style: italic;
+  text-align: center;
+}
+.launching_month{
+  color: #26F7FD !important;
+  font-style: italic !important;
+  text-align: center;
+  padding-bottom: 10.5rem;
+  font-weight: 600;
+}
+.video{
+  width: 100%;
+  padding: 1rem 0;
+}
+.video_responsive{
+  height: 450px !important;
+  width: 100% !important;
+}
+
+/* form */
+#parent {
+  display: table;
+  width: 100%;
+  position: relative;
+  top: 100%;
+}
+#form_login {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+form p{
+  color: #fff !important;
 }
